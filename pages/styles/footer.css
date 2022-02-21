@@ -17,16 +17,22 @@
   margin-right: 20px;
 }
 
-.serviceWrap {
+.serviceContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 8px 0;
+}
+
+.serviceWrap {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .service {
   display: flex;
   align-items: center;
+  margin: 8px 0;
 }
 
 .serviceText {
@@ -61,7 +67,7 @@
 }
 
 .grayLine {
-  margin: 25px 0;
+  margin: 23px 0;
   border-bottom: 1px solid #9b9b9b;
 }
 
