@@ -1,0 +1,91 @@
+.footer {
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+}
+
+.footerWrap {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.bi {
+  color: #fff;
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.serviceWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+}
+
+.serviceText {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.serviceNumber {
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.serviceTime {
+  margin-left: 10px;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.serviceButton {
+  margin-left: 20px;
+  padding: 9px 20px 8px 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.contactNumber {
+  font-size: 14px;
+}
+
+.grayLine {
+  margin: 25px 0;
+  border-bottom: 1px solid #9b9b9b;
+}
+
+.copyrightWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.copyright {
+  display: inline-block;
+}
+
+.copyrightText {
+  margin: 4px 0;
+}
+
+.info {
+  display: flex;
+}
+
+.infoText {
+  margin-left: 20px;
+}
