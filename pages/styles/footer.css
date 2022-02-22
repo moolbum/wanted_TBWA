@@ -1,0 +1,201 @@
+.serviceTextMobile,
+.serviceButtonMobile {
+  display: none;
+}
+
+.footer {
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+}
+
+.footerContainer {
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.footerWrap {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.bi {
+  color: #fff;
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.serviceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serviceWrap {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.serviceText {
+  margin: 0;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.serviceNumber {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.serviceTime {
+  margin: 0 0 0 10px;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.serviceButton {
+  margin-left: 20px;
+  padding: 9px 20px 8px 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.serviceButton:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contactNumber {
+  font-size: 14px;
+}
+
+.grayLine {
+  margin: 23px 0;
+  border-bottom: 1px solid #9b9b9b;
+}
+
+.copyrightWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.copyright {
+  display: inline-block;
+}
+
+.copyrightText {
+  margin: 4px 0;
+}
+
+.info {
+  display: flex;
+}
+
+.infoText {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .serviceLogo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .serviceText,
+  .serviceNumber,
+  .serviceButton {
+    display: none;
+  }
+
+  .footerContainer {
+    padding: 70px 10px;
+  }
+
+  .footerWrap {
+    padding: 0 10px;
+  }
+
+  .bi {
+    color: #fff;
+    font-size: 28px;
+    margin-right: 12px;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .serviceTextMobile {
+    margin-top: 20px;
+    display: block;
+    font-size: 18px;
+  }
+
+  .serviceTime {
+    margin: 8px 0;
+    font-size: 12px;
+  }
+
+  .contactNumber {
+    font-size: 14px;
+  }
+
+  .serviceButtonMobile {
+    display: block;
+    margin: 25px 0 5px 0;
+    padding: 9px 20px 8px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: none;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .grayLine {
+    margin: 15px 0;
+  }
+
+  .copyrightMobil {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .copyrightWrap {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .copyrightText {
+    margin: 2px;
+    font-size: 11px;
+  }
+
+  .infoText {
+    margin: 20px 10px 0 0;
+    color: #fff;
+    font-size: 12px;
+  }
+}
