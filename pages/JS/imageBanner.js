@@ -1,4 +1,3 @@
-// transform: translateX(0%);
 const bannerContainer = document.querySelector('.bannerContainerMobile');
 const selectCircle = document.querySelector('.imageSelector');
 const selectorYellow = document.querySelector('.imageSelectorYellow');
