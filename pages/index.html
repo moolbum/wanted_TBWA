@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/imageBanner.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <title>퍼포먼스바이 TBWA</title>
   </head>
   <body>
@@ -89,13 +95,106 @@
         <div>유진 팝업창</div>
       </section>
 
-      <section>용우님 배너</section>
+      <section class="imageBanner imageBannerMobile">
+        <div class="imageTitleWrap">
+          <h1 class="imageTitle">꾸까 브랜드 스토리</h1>
+          <p class="imageText">더보기</p>
+        </div>
+        <div class="bannerContainer bannerContainerMobile">
+          <article class="bannerWrap bannerFirst">
+            <h1 class="bannerTitle bannerTitleMobile">꾸까 브랜드 이야기</h1>
+            <p class="bannerText bannerTextMobile">
+              꽃으로 라이프스타일을 만들어가는<br />kukka의 문화를 소개해요.
+            </p>
+            <a href="/" class="bannerButton bannerButtonMobile"
+              >Brand&nbspstory</a
+            >
+          </article>
+          <article class="bannerWrap bannerSecond">
+            <h1 class="bannerTitle bannerTitleMobile">꾸까 오프라인 쇼룸</h1>
+            <p class="bannerText bannerTextMobile">
+              꽃을 가까이서 만져보고 향기도 맡아보고,<br />
+              꽃 속에서 작은 휴식을 누릴 수 있는 kukka의 오프라인 쇼룸
+            </p>
+            <a href="/" class="bannerButton bannerButtonMobile"
+              >꾸까 쇼룸 안내</a
+            >
+          </article>
+        </div>
+        <div class="imageSelectorWrap">
+          <div class="imageSelectorYellow"></div>
+          <div class="imageSelector"></div>
+        </div>
+      </section>
 
-      <footer>용우님 푸터</footer>
+      <footer class="footer">
+        <div class="footerContainer">
+          <div class="footerWrap">
+            <nav class="iconWrap">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/?hl=ko" target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </nav>
+            <div class="serviceContainer">
+              <div class="serviceWrap">
+                <div class="service">
+                  <h1 class="serviceText">꾸까 고객센터</h1>
+                  <h1 class="serviceTextMobile">꾸까 고객센터 1661-1031</h1>
+                  <p class="serviceNumber">1661-1031</p>
+                  <p class="serviceTime">
+                    (평일 10:00 - 13:00, 14:00 - 18:00 / 주말 & 공휴일 제외)
+                  </p>
+                  <a class="serviceButton">꾸까 고객센터 ></a>
+                </div>
+                <p class="contactNumber">기업제휴 문의 : 070-4238-8251</p>
+                <a class="serviceButtonMobile">꾸까 고객센터 ></a>
+              </div>
+              <img
+                class="serviceLogo"
+                src="../public/images/logo.png"
+                alt="logo"
+              />
+            </div>
+
+            <div class="grayLine" />
+          </div>
+          <div class="copyrightWrap">
+            <ul class="copyrightMobil">
+              <li class="copyright copyrightText">상호명: 꾸까(kukka) |</li>
+              <li class="copyright copyrightText">
+                사업자 등록번호: 264-81-32594 |
+              </li>
+              <li class="copyright copyrightText">대표자: 박춘화</li>
+              <li class="copyrightText">
+                소재지: 서울시 서초구 남부순환로333길 10 kukka |
+              </li>
+              <li class="copyright copyrightText">기업공시 |</li>
+              <li class="copyright copyrightText">
+                통신판매신고번호 2018-서울서초-1692
+              </li>
+              <li class="copyrightText">
+                © 2014-2021 kukka, Inc. Allrights reserved.
+              </li>
+            </ul>
+            <nav>
+              <ul class="info">
+                <li class="infoText">이용약관</li>
+                <li class="infoText">개인정보 처리방침</li>
+                <li class="infoText">제휴안내</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="JS/imageBanner.js"></script>
     <script src="JS/index.js"></script>
-    
-    </script>
   </body>
 </html>
