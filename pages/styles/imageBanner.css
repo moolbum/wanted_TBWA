@@ -1,4 +1,5 @@
-.imageTitleWrap {
+.imageTitleWrap,
+.imageSelectorWrap {
   display: none;
 }
 
@@ -67,6 +68,7 @@
     width: 100%;
     padding: 50px 20px 20px 20px;
     background: #f7f7f7;
+    overflow-x: hidden;
   }
 
   .imageTitleWrap {
@@ -77,11 +79,13 @@
 
   .bannerContainerMobile {
     display: flex;
-    width: 100%;
+    width: 200%;
+    flex-wrap: nowrap;
+    transform: translateX(0%);
   }
 
   .bannerWrap {
-    max-width: 720px;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     padding: 8% 20px;
@@ -111,5 +115,30 @@
 
   .bannerButtonMobile {
     display: none;
+  }
+
+  .imageSelectorWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .imageSelectorYellow {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    border-radius: 8px;
+    background-color: #f5ca5f;
+    cursor: pointer;
+  }
+
+  .imageSelector {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    border-radius: 8px;
+    background-color: #e4e4e4;
+    cursor: pointer;
   }
 }
