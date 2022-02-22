@@ -127,7 +127,17 @@
   }
 
   .footerContainer {
-    padding: 0 30px;
+    padding: 70px 10px;
+  }
+
+  .footerWrap {
+    padding: 0 10px;
+  }
+
+  .bi {
+    color: #fff;
+    font-size: 28px;
+    margin-right: 12px;
   }
 
   .service {
@@ -137,12 +147,13 @@
   }
 
   .serviceTextMobile {
+    margin-top: 20px;
     display: block;
     font-size: 18px;
   }
 
   .serviceTime {
-    margin: 0;
+    margin: 8px 0;
     font-size: 12px;
   }
 
@@ -152,7 +163,7 @@
 
   .serviceButtonMobile {
     display: block;
-    margin-top: 7px;
+    margin: 25px 0 5px 0;
     padding: 9px 20px 8px 20px;
     border: 1px solid #fff;
     border-radius: 20px;
