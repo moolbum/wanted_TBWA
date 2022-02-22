@@ -1,0 +1,226 @@
+.wrap {
+  width: 100%;
+}
+
+/*header 시작*/
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 90px;
+  padding: 0 60px;
+  background: #fff;
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #ffcd32;
+  box-shadow: 0px 1px 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+header .headerWrap {
+  display: flex;
+  position: relative;
+  width: 1240px;
+  margin: 0 auto;
+  /* background: pink; */
+}
+
+header .headerWrap .KukkaLogo .KukkaLogoImg {
+  width: 143px;
+}
+
+header .headerWrap nav .navBar {
+  display: flex;
+  padding: 33px 200px 0 140px;
+  text-align: center;
+}
+
+header .headerWrap nav .navBar .navItem a {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  letter-spacing: -0.27px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+header .headerWrap nav .navBar .navItem a:hover {
+  padding-bottom: 5px;
+  height: 2px;
+  border-bottom: 2px solid #ffcd32;
+}
+
+header .headerWrap nav .navBar .navItem.left {
+  margin-left: 50px;
+}
+
+header .headerWrap .rightNav {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  margin-top: 25px;
+}
+
+header .headerWrap .rightNav ul {
+  display: flex;
+}
+
+header .headerWrap .rightNav ul li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+header .headerWrap .rightNav ul li.user {
+  background-image: url(../images/kukkaIcon.png);
+  background-position: -38px -817px;
+  width: 25px;
+  height: 28px;
+  background-size: 1252px 845px;
+}
+
+header .headerWrap .rightNav ul li.basket {
+  background-image: url(../images/kukkaIcon.png);
+  background-position: -73px -817px;
+  width: 25px;
+  height: 28px;
+  background-size: 1252px 845px;
+}
+
+header .headerWrap .rightNav ul li a img {
+  width: 30px;
+}
+
+.moHeader {
+  display: none;
+}
+
+.videoWrap > iframe {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header 반응형 */
+@media screen and (max-width: 1360px) {
+  header {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  header .headerWrap {
+    display: flex;
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+  header .headerWrap nav .navBar {
+    display: flex;
+    padding: 33px 180px 0 90px;
+    text-align: center;
+  }
+
+  header .headerWrap .rightNav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+  }
+
+  .videoWrap {
+    position: relative;
+    padding-top: 56%;
+    width: 100%;
+    height: 0;
+  }
+
+  .videoWrap > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  header {
+    width: 100%;
+  }
+
+  header .headerWrap {
+    width: 1000px;
+  }
+
+  header .headerWrap .KukkaLogo .KukkaLogoImg {
+    margin-left: 20px;
+  }
+
+  header .headerWrap nav .navBar {
+    display: flex;
+    padding: 33px 160px 0 30px;
+    text-align: center;
+  }
+
+  header .headerWrap .rightNav {
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+    height: 52px;
+  }
+
+  header .headerWrap {
+    display: none;
+  }
+
+  header .moHeader {
+    display: block;
+  }
+
+  header .moHeader .moHeaderWrap {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    margin: 0 30px 0 10px;
+  }
+
+  header .moHeader .moHeaderWrap .mobileLogoWrap .KukkaLogo a {
+    display: flex;
+    align-items: baseline;
+  }
+
+  header .moHeader .moHeaderWrap .mobileLogoWrap .KukkaLogo a .KukkaLogoImg {
+    background-image: url(../images/kukkaIcon.png);
+    background-size: 626px 422.5px;
+    width: 167px;
+    height: 22px;
+    background-position: -383px -219px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  header .moHeader .moHeaderWrap .moRightNav .basket {
+    background-image: url(../images/kukkaIcon.png);
+    background-size: 626px 422.5px;
+    width: 21px;
+    height: 39.5px;
+    background-position: -604px -294px;
+  }
+
+  .video {
+    width: 100%;
+  }
+}

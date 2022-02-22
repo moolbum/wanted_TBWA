@@ -96,6 +96,8 @@ video {
 html {
   font-family: 'Noto Sans KR', sans-serif;
   -moz-font-family: 'Noto Sans KR', sans-serif;
+  -ms-font-family: 'Noto Sans KR', sans-serif;
+  -o-font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-family: 'Noto Sans KR', sans-serif;
   -webkit-text-size-adjust: 100%;
 }
