@@ -105,10 +105,9 @@ header .headerWrap .rightNav ul li a img {
   width: 30px;
 }
 
-.youtube {
-  width: 1000px;
-  height: 1000px;
-  background: lightblue;
+.video {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .moHeader {
@@ -210,5 +209,9 @@ header .headerWrap .rightNav ul li a img {
     width: 21px;
     height: 39.5px;
     background-position: -604px -294px;
+  }
+
+  .video {
+    width: 100%;
   }
 }
