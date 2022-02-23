@@ -40,7 +40,7 @@
 ## Tools
 
 ```
-- View (HTML, CSS, JavaScript, Jquery)
+- View (HTML, CSS, JavaScript, Jquery, bootstrap)
 - Code Quality Tool (Prettier)
 - Other Tools (Git, Github, notion, Slack. AWS)
 ```
@@ -61,7 +61,7 @@
 
 ### 양주영
 
-#### Image banner
+#### nav
 
 - [x] 메뉴 hover시 밑줄 강조
 - [x] 스크롤 이동시 같이 이동
