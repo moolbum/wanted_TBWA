@@ -2,7 +2,7 @@
 
 ## 배포
 
-🔗 **과제물**(aws s3): https://
+🔗 **과제물**(aws s3): https://zen-swanson-24f251.netlify.app/
 
 <br>
 
@@ -24,7 +24,7 @@
 
 1. git clone
    ```bash
-   git clone
+   git clone https://github.com/wanted-freepass/wanted_TBWA.git
    ```
 2. 패키지 설치
    ```bash
